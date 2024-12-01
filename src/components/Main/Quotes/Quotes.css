@@ -1,0 +1,115 @@
+.b-quotes {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    margin-top: 30px;
+    color: white;
+}
+.b-quotes__info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    background-color: #12343b;
+    box-shadow: -2px 2px 5px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.b-quotes__right {
+    position: relative;
+}
+.b-quotes__flex {
+    display: flex;
+}
+.b-quotes__header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Bodoni Moda SC, Helvetica, sans-serif;
+}
+.b-quotes__list {
+    display: flex;
+}
+.b-quotes__list-item {
+    background-color: #12343b;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+.b-quotes__quote-author {
+    text-align: center;
+    font-weight: 900;
+}
+.b-quotes__input:hover {
+    border: none;
+    outline: none;
+}
+b.quotes__input:active {
+    outline: none;
+    border: none;
+}
+b.quotes__input:focus {
+    outline: none;
+    border: none;
+}
+.b-quotes__input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    color: white;
+    background-color: #12343b;
+    position: relative;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+@media screen and (width <= 768px) {
+    .b-quotes__list {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .b-quotes__list-item {
+        width: 90%;
+        margin: 0 5%;
+        height: auto;
+    }
+    .b-quotes__flex {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .b-quotes__left {
+        width: 100%;
+        height: auto;
+    }
+    .b-quotes__right {
+        width: 70%;
+        height: 30px;
+        margin: 0 auto;
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (width > 768px) {
+    .b-quotes__list {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .b-quotes__flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .b-quotes__left {
+        width: 80%;
+        height: 100%;
+    }
+    .b-quotes__right {
+        width: 20%;
+        height: 100%;
+    }
+}

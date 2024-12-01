@@ -1,0 +1,16 @@
+.b-main__about {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background-color: #12343b;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Raleway, Georgia, sans-serif;
+}
+.b-main__about-header {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: Bodoni Moda SC, Helvetica, sans-serif;
+}

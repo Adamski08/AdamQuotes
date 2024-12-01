@@ -1,0 +1,44 @@
+.b-technology {
+    background-color: #12343b;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+.b-technology__header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Bodoni Moda SC, Helvetica, sans-serif;
+}
+.b-technology__list {
+    display: flex;
+
+}
+.b-technology__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #c89666;
+    padding: 8px;
+    font-family: Raleway, Georgia, sans-serif;
+
+}
+@media screen and (width <= 768px) {
+    .b-technology__list {
+        flex-direction: column;
+        align-items: stretch;
+        row-gap: 10px;
+    }
+}
+@media screen and (width > 768px) {
+    .b-technology__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .b-technology__list-item {
+        width: 30%;
+    }
+}

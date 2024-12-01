@@ -1,0 +1,31 @@
+.b-quotes__list-item {
+    transition-property: all;
+    transition-duration: .2s;
+    font-family: Raleway, Georgia, sans-serif;
+}
+
+
+
+@media screen and (width <= 768px) {
+    .b-quotes__list-item {
+        width: 90%;
+        margin: 0 5%;
+        height: auto;
+    }
+    .b-quotes__flex {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .b-quotes__list-item:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (width > 768px) {
+    .b-quote__list-item {
+        min-width: 200px;
+    }
+    .b-quotes__list-item:hover {
+        transform: scale(1.3);
+    }
+}

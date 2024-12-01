@@ -1,0 +1,29 @@
+.b-sources {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #2d545e;
+    color: white;
+    height: auto;
+    box-shadow: 2px -2px 5px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+@media screen and (height < 100vh) {
+    .b-sources {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+.b-sources__header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Bodoni Moda SC, Helvetica, sans-serif;
+}
+.b-sources__content-heading {
+    margin-top: 10px;
+    font-family: Raleway, Georgia, sans-serif;
+}
+.b-sources__content-link {
+    text-decoration: none;
+    color: white;
+}
