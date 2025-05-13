@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AdamQuotes/static/css/main.49f33796.css",
+    "main.js": "/AdamQuotes/static/js/main.a14b01fb.js",
+    "static/js/453.0ae078f4.chunk.js": "/AdamQuotes/static/js/453.0ae078f4.chunk.js",
+    "index.html": "/AdamQuotes/index.html",
+    "main.49f33796.css.map": "/AdamQuotes/static/css/main.49f33796.css.map",
+    "main.a14b01fb.js.map": "/AdamQuotes/static/js/main.a14b01fb.js.map",
+    "453.0ae078f4.chunk.js.map": "/AdamQuotes/static/js/453.0ae078f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49f33796.css",
+    "static/js/main.a14b01fb.js"
+  ]
+}
