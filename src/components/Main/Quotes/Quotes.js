@@ -26,7 +26,7 @@ class Quotes extends React.Component {
                         <div className="b-quotes__info">
                         <p>Można wpisać jedynie wartości liczbowe z zakresu od 0 do 50.</p>
                         <p>
-                            Jakiekolwiek wpisanie wartości spoza zakresu spowoduje wyświetlenie
+                            Jakiekolwiek wpisanie wartości niepsełniającej powyższego kryterium spowoduje wyświetlenie
                             50 cytatów.
                         </p>
                         </div>

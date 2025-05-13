@@ -1,9 +1,6 @@
 import React from 'react';
 import './Sources.css';
 class Sources extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
             <section className="b-sources">

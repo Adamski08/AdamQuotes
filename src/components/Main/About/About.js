@@ -1,9 +1,6 @@
 import React from 'react';
 import './About.css';
 class About extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
             <article className="b-main__about">

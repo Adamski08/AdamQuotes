@@ -1,9 +1,6 @@
 import React from 'react';
 import './Header.css';
 class Header extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         let divEl = document.getElementsByClassName("b-indicator")[0];
 

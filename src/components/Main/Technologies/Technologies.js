@@ -2,9 +2,6 @@ import React from 'react';
 import './Technologies.css';
 
 class Technologies extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
             <section className="b-technology">

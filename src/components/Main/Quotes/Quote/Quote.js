@@ -1,9 +1,6 @@
 import React from 'react';
 import './Quote.css';
 class Quote extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
         <div className="b-quotes__list-item">
